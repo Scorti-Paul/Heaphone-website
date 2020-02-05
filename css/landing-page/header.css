@@ -2,6 +2,7 @@ header {
     padding: 30px 20px;
     font-size: 12px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
 
 header:after {
@@ -18,7 +19,7 @@ header a {
 header .logo {
     display: inline-block;
     float: left;
-    margin-right: 28px;
+    margin-right: 38px;
 }
 
 header .logo img {
@@ -29,7 +30,7 @@ header .menu {
     display: inline-block;
     float: left;
     position: relative;
-    top: 6px;
+    top: 26px;
 }
 
 header .menu a {
@@ -46,17 +47,15 @@ header .header-buttons {
 
 header .header-buttons .blue-btn {
     padding: 12px 46px;
-    background: #4C44C1;
+    background: #6066F2;
     color: #fff;
     border-radius: 20px;
     text-transform: uppercase;
-    -webkit-box-shadow: 0px 17px 40px -14px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 0px 17px 40px -14px rgba(0, 0, 0, 0.7);
-    box-shadow: 0px 17px 40px -14px rgba(0, 0, 0, 0.7);
-    margin-right: 25px;
+    position: relative;
+    top: 20px;
 }
 
-header .header-buttons .blue-btn .fa-shopping-bag {
+header .header-buttons .blue-btn .fas {
     margin-left: 10px;
 }
 
@@ -66,7 +65,6 @@ header .header-buttons .orange-btn {
     color: #fff;
     border-radius: 20px;
     text-transform: uppercase;
-    -webkit-box-shadow: 0px 17px 40px -14px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 0px 17px 40px -14px rgba(0, 0, 0, 0.7);
-    box-shadow: 0px 17px 40px -14px rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20px;
 }
