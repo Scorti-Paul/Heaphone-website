@@ -1,101 +1,120 @@
 #top-jumbo {
-    padding: 0 0 400px;
-    background: #fff;
-    background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 40%, #9848f2 77%, #795278 100%);
-    background: -webkit-linear-gradient(-45deg, #ffffff 0%, #ffffff 40%, #9848f2 77%, #795278 100%);
-    background: linear-gradient(135deg, #ffffff 0%, #ffffff 40%, #9848f2 77%, #795278 100%);
+  padding: 0 0 400px;
+  background: #fff;
+  background: -moz-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #ffffff 40%,
+    #9848f2 77%,
+    #795278 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #ffffff 40%,
+    #9848f2 77%,
+    #795278 100%
+  );
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #ffffff 40%,
+    #9848f2 77%,
+    #795278 100%
+  );
 }
 
 #top-jumbo:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #top-jumbo .left-side {
-    width: 40%;
-    display: inline-block;
-    float: left;
+  width: 40%;
+  display: inline-block;
+  float: left;
 }
 
 #top-jumbo .left-side .large-number {
-    font-size: 300px;
-    font-weight: 700;
-    opacity: .1;
-    color: #4C44C1;
-    position: relative;
-    left: -20px;
-    top: 0;
-    z-index: 1;
+  font-size: 300px;
+  font-weight: 700;
+  opacity: 0.1;
+  color: #4c44c1;
+  position: relative;
+  left: -20px;
+  top: 0;
+  z-index: 1;
 }
 
 #top-jumbo .left-side .info-container {
-    position: relative;
-    top: -100px;
+  position: relative;
+  top: -100px;
 }
 
 #top-jumbo .left-side .info-container h1 {
-    color: #6066F2;
-    font-size: 4.5rem;
-    margin-bottom: 1.5rem;
-    line-height: 1.1;
+  color: #6066f2;
+  font-size: 4.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
 }
 
 #top-jumbo .left-side .info-container p {
-    color: #BCBFC8;
-    line-height: 1.6;
-    font-size: 1.2rem;
-    font-weight: 300;
+  color: #bcbfc8;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
 }
 
 #top-jumbo .left-side .info-container .email-area {
-    background: #fff;
-    border-radius: 50px;
-    display: inline-block;
-    padding: 10px;
+  background: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px;
 }
 
 #top-jumbo .left-side .info-container .email-area .far {
-    color: rgb(121, 122, 124);
-    padding: 10px;
-    font-size: 1.6rem;
-    position: relative;
-    top: 7px;
-    margin-left: 15px;
+  color: rgb(121, 122, 124);
+  padding: 10px;
+  font-size: 1.6rem;
+  position: relative;
+  top: 7px;
+  margin-left: 15px;
 }
 
 #top-jumbo .left-side .info-container .email-area input[type="email"] {
-    background: #fff;
-    color: rgb(121, 122, 124);
-    padding: 10px;
-    font-size: 1rem;
-    border: none;
-    width: 220px;
+  background: #fff;
+  color: rgb(121, 122, 124);
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  width: 220px;
 }
 
 #top-jumbo .left-side .info-container .email-area input[type="email"]:focus {
-    border: none;
+  border: none;
 }
 
 #top-jumbo .left-side .info-container .email-area input::placeholder {
-    color: #BCBFC8;
+  color: #bcbfc8;
 }
 
 #top-jumbo .left-side .info-container .email-area button {
-    background: #6066F2;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 35px;
-    padding: 20px 50px;
-    font-size: 1rem;
+  background: #6066f2;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 35px;
+  padding: 20px 50px;
+  font-size: 1rem;
 }
 
 #top-jumbo .right-side {
-    width: 60%;
-    display: inline-block;
-    float: left;
+  width: 60%;
+  display: inline-block;
+  float: left;
 }
 
 #top-jumbo .right-side img {
-    width: 100%;
+  width: 100%;
 }
