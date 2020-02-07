@@ -1,0 +1,108 @@
+#design-by {
+  position: relative;
+  top: -150px;
+}
+
+#design-by .design-container {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+#design-by .design-container .bg-container {
+  position: relative;
+  background-color: #6066f2;
+  overflow: hidden;
+  padding: 45px;
+}
+
+#design-by .design-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#design-by .design-container .bg-image {
+  position: absolute;
+  width: 400px;
+  opacity: 0.2;
+  z-index: 1;
+  right: -100px;
+  top: 10px;
+}
+
+#design-by .design-container .info-section {
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+
+#design-by .design-container .info-section h5 {
+  color: #fbab34;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+#design-by .design-container .info-section h3 {
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+#design-by .design-container .info-section .info-list {
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+#design-by .design-container .info-section .info-list li {
+  list-style: none;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+#design-by .design-container .info-section .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fbab34;
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+}
+
+#design-by .design-container .info-section .circle .fas {
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  font-size: 12px;
+}
+
+#design-by .design-container .info-section .white-btn {
+  color: #8287f4;
+  background-color: #fff;
+  display: inline-block;
+  padding: 18px 60px;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+}
+#design-by .design-container .icons-section {
+  width: 60%;
+  background-color: #fff;
+  display: inline-block;
+  float: left;
+}
