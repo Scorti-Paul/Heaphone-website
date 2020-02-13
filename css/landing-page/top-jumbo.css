@@ -40,11 +40,14 @@
   font-size: 178px;
   font-weight: 700;
   opacity: 0.1;
-  color: #4c44c1;
+  /* color: #4c44c1; */
   position: relative;
   left: -11px;
   top: -27px;
   z-index: 1;
+  background: -webkit-linear-gradient(#4c44c1, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #top-jumbo .left-side .info-container {
