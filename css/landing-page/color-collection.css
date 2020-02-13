@@ -1,3 +1,27 @@
 #color-collection {
   padding: 50px;
 }
+
+#color-collection {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#color-collection .left-side {
+  width: 60%;
+  display: inline-block;
+  float: left;
+}
+
+#color-collection .left-side img {
+  width: 80%;
+  display: inline-block;
+  float: left;
+  margin: 0 auto;
+}
+#color-collection .right-side {
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
