@@ -1,0 +1,142 @@
+#blue-print {
+  color: #fff;
+  padding-top: 170px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(
+    to right bottom,
+    #4e45c7,
+    #4f45c8,
+    #4f46c8,
+    #5046c9,
+    #5046ca,
+    #5248ce,
+    #544ad3,
+    #564cd7,
+    #5b50e0,
+    #6054e8,
+    #6558f1,
+    #6a5cfa
+  );
+}
+
+#blue-print .container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#blue-print .container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#blue-print .left-side {
+  width: 60%;
+  float: right;
+  display: inline-block;
+}
+
+#blue-print .left-side img {
+  width: 100%;
+  opacity: 0.7;
+}
+
+#blue-print .right-side {
+  width: 40%;
+  float: left;
+}
+
+#blue-print .right-side h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+#blue-print .right-side .info-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#blue-print .right-side .info-box {
+  padding: 0 0 80px;
+}
+
+#blue-print .right-side .info-box .col-1 {
+  width: 40%;
+  float: left;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container {
+  width: 60%;
+  float: left;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #e7e7e7;
+  position: relative;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px dashed #d2d2d4;
+  margin: 0 auto;
+  position: absolute;
+  top: 19px;
+  left: 20px;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle .fas,
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle .fab {
+  font-size: 3rem;
+  position: absolute;
+  top: 23px;
+  left: 30px;
+  color: #ffffff;
+}
+
+#blue-print .right-side .info-box .col-2 {
+  width: 40%;
+  float: left;
+}
+
+#blue-print .right-side .info-box .col-2 h3 {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+#blue-print .right-side .info-box .col-2 p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  width: 233px;
+  line-height: 1.1rem;
+  color: rgb(238, 238, 238);
+}
+
+#blue-print .right-side .info-box .col-2 a.orange,
+#blue-print .right-side .info-box .col-2 a.purple {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#blue-print .right-side .info-box .col-2 a.orange {
+  color: #ec9f64;
+}
+
+#blue-print .right-side .info-box .col-2 a.orange:hover {
+  color: #f0af7e;
+}
+
+#blue-print .right-side .info-box .col-2 a.purple {
+  color: #df79e8;
+}
+
+#blue-print .right-side .info-box .col-2 a.purple:hover {
+  color: #eb97f3;
+}
