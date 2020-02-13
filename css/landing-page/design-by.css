@@ -66,7 +66,7 @@
   font-size: 1rem;
   color: #fff;
   font-weight: 300;
-  margin-bottom: 15px;
+  margin-bottom: 14.2px;
 }
 
 #design-by .design-container .info-section .circle {
@@ -105,4 +105,41 @@
   background-color: #fff;
   display: inline-block;
   float: left;
+  position: relative;
+}
+
+#design-by .design-container .icons-section .refresh-circle {
+  position: absolute;
+  top: 40%;
+  left: 44%;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+#design-by .design-container .icons-section .refresh-circle .fas {
+  position: relative;
+  color: #fbab34;
+  font-size: 2.5rem;
+  top: 20px;
+  left: 20px;
+}
+
+#design-by .design-container .icons-section .icon-box {
+  width: 50%;
+  height: 226px;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  border: 1px solid #f4f7fa;
+  color: #8287f4;
+  font-size: 1.3rem;
+}
+
+#design-by .design-container .icons-section .icon-box .fas,
+#design-by .design-container .icons-section .icon-box .far {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 61px;
 }

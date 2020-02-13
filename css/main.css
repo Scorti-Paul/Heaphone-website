@@ -14,3 +14,9 @@
   -moz-box-shadow: 0px 17px 40px -14px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 17px 40px -14px rgba(0, 0, 0, 0.3);
 }
+
+.box-shadow-center {
+  -webkit-box-shadow: 0px 0px 60px 20px rgba(59, 59, 59, 0.2);
+  -moz-box-shadow: 0px 0px 60px 20px rgba(59, 59, 59, 0.2);
+  box-shadow: 0px 0px 60px 20px rgba(59, 59, 59, 0.2);
+}
