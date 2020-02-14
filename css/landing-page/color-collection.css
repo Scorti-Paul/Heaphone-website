@@ -20,6 +20,7 @@
   display: inline-block;
   float: left;
   margin: 0 auto;
+  transform: rotate(-40deg);
 }
 #color-collection .right-side {
   width: 40%;

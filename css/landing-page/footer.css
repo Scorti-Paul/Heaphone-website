@@ -1,0 +1,79 @@
+#footer {
+  margin-top: 120px;
+  color: #fff;
+  padding-top: 170px;
+  padding-bottom: 100px;
+  text-align: center;
+  background: #3831c4;
+  background: -moz-linear-gradient(-45deg, #3831c4 0%, #685bf7 100%);
+  background: -webkit-linear-gradient(-45deg, #3831c4 0%, #685bf7 100%);
+  background: linear-gradient(135deg, #3831c4 0%, #685bf7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3831c4', endColorstr='#685bf7',GradientType=1 );
+}
+
+#footer h1 {
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+#footer h1 span {
+  font-weight: 700;
+  color: #ee9e37;
+}
+#footer .menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#footer .menu {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+#footer .menu a {
+  text-transform: uppercase;
+  margin-right: 20px;
+  color: rgb(226, 226, 226);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#footer .menu a:hover {
+  color: #fff;
+}
+
+#footer p {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#footer p a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#footer p a:hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+#footer .social-menu {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+#footer .social-menu a {
+  font-size: 2rem;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: rgb(226, 226, 226);
+}
+#footer .social-menu a:hover {
+  color: #fff;
+}
