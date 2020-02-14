@@ -1,70 +1,80 @@
 header {
-    padding: 30px 20px;
-    font-size: 12px;
-    font-weight: 600;
-    margin-bottom: 50px;
+  padding: 30px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 50px;
 }
 
 header:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 header a {
-    color: #4C44C1;
-    text-decoration: none;
+  color: #4c44c1;
+  text-decoration: none;
 }
 
 header .logo {
-    display: inline-block;
-    float: left;
-    margin-right: 38px;
+  display: inline-block;
+  float: left;
+  margin-right: 38px;
 }
 
 header .logo img {
-    width: 40px;
+  width: 40px;
 }
 
 header .menu {
-    display: inline-block;
-    float: left;
-    position: relative;
-    top: 26px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 26px;
 }
 
 header .menu a {
-    text-transform: uppercase;
-    margin-right: 20px;
+  text-transform: uppercase;
+  margin-right: 20px;
 }
 
 header .header-buttons {
-    display: inline-block;
-    float: right;
-    position: relative;
-    top: -2px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -2px;
 }
 
 header .header-buttons .blue-btn {
-    padding: 12px 46px;
-    background: #6066F2;
-    color: #fff;
-    border-radius: 20px;
-    text-transform: uppercase;
-    position: relative;
-    top: 20px;
+  padding: 12px 46px;
+  background: #6066f2;
+  color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+  position: relative;
+  margin-right: 10px;
+  top: 20px;
+}
+
+header .header-buttons .blue-btn:hover {
+  background: #767af7;
+  cursor: pointer;
 }
 
 header .header-buttons .blue-btn .fas {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 header .header-buttons .orange-btn {
-    padding: 12px 46px;
-    background: #F28F38;
-    color: #fff;
-    border-radius: 20px;
-    text-transform: uppercase;
-    position: relative;
-    top: 20px;
+  padding: 12px 46px;
+  background: #f28f38;
+  color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+}
+header .header-buttons .orange-btn:hover {
+  background: #ee9e58;
+  cursor: pointer;
 }

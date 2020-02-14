@@ -39,7 +39,9 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-
+#latest .head .directions:hover {
+  cursor: pointer;
+}
 #latest .head .directions .move-right {
   float: right;
   font-size: 3rem;
@@ -289,4 +291,101 @@
   position: absolute;
   top: 20px;
   right: 20px;
+}
+
+#latest .footer {
+  text-align: center;
+  position: relative;
+}
+
+#latest .footer img {
+  width: 40%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  transform: rotate(40deg);
+  opacity: 0.6;
+}
+
+#latest .footer .info-box {
+  z-index: 2;
+  position: relative;
+  padding: 100px 0;
+}
+
+#latest .footer .info-box h2 {
+  color: #5f65f1;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#latest .footer .info-box form .input-area {
+  background: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+#latest .footer .info-box form .input-area .far {
+  color: #278078;
+  padding: 10px;
+  font-size: 1.6rem;
+  position: relative;
+  top: 7px;
+  margin-left: 1px;
+  opacity: 0.4;
+}
+#latest .footer .info-box form .input-area .far:nth-child(1) {
+  /* margin-top: -10px; */
+  position: relative;
+  top: 2px;
+}
+
+#latest .footer .info-box form .input-area .far:nth-child(2) {
+  position: relative;
+  top: 5px;
+}
+
+#latest .footer .info-box form .input-area input::placeholder {
+  color: #278078;
+  opacity: 0.4;
+}
+
+#latest .footer .info-box form .input-area:nth-child(1) {
+  margin-right: 50px;
+}
+#latest .footer .info-box form .input-area input[type="email"],
+#latest .footer .info-box form .input-area input[type="text"] {
+  background: #fff;
+  color: #807f7f;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  width: 220px;
+}
+
+#latest .footer .info-box form .input-area input[type="text"] {
+  width: 300px;
+}
+#latest .footer .info-box form .input-area input[type="email"]:focus,
+#latest .footer .info-box form .input-area input[type="email"]:focus {
+  border: none;
+}
+
+#latest .footer .info-box form .input-area button {
+  background: #6066f2;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 16px 40px;
+  font-size: 1rem;
+  border-style: none;
+}
+
+#latest .footer .info-box form .input-area button:hover {
+  cursor: pointer;
+  background: #767af7;
 }

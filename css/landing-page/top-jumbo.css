@@ -112,6 +112,10 @@
   font-size: 1rem;
   border-style: none;
 }
+#top-jumbo .left-side .info-container .email-area button:hover {
+  background: #767af7;
+  cursor: pointer;
+}
 
 #top-jumbo .right-side {
   width: 60%;
