@@ -126,4 +126,16 @@
 
 #top-jumbo .right-side img {
   width: 80%;
+  transform: rotate(-20deg);
+}
+
+/*LAPTOPS DEVICES*/
+@media only screen and (max-width: 1215px) {
+}
+/*TABLETS DEVICES*/
+@media only screen and (max-width: 1023px) {
+}
+
+/*MOBILE DEVICES*/
+@media only screen and (max-width: 767px) {
 }

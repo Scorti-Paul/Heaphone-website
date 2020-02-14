@@ -140,3 +140,14 @@
 #blue-print .right-side .info-box .col-2 a.purple:hover {
   color: #eb97f3;
 }
+
+/*LAPTOPS DEVICES*/
+@media only screen and (max-width: 1215px) {
+}
+/*TABLETS DEVICES*/
+@media only screen and (max-width: 1023px) {
+}
+
+/*MOBILE DEVICES*/
+@media only screen and (max-width: 767px) {
+}

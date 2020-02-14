@@ -249,3 +249,14 @@
   top: 12px;
   left: 12px;
 }
+
+/*LAPTOPS DEVICES*/
+@media only screen and (max-width: 1215px) {
+}
+/*TABLETS DEVICES*/
+@media only screen and (max-width: 1023px) {
+}
+
+/*MOBILE DEVICES*/
+@media only screen and (max-width: 767px) {
+}
