@@ -40,7 +40,6 @@
   font-size: 178px;
   font-weight: 700;
   opacity: 0.1;
-  /* color: #4c44c1; */
   position: relative;
   left: -11px;
   top: -27px;
@@ -131,11 +130,146 @@
 
 /*LAPTOPS DEVICES*/
 @media only screen and (max-width: 1215px) {
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+  }
+
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 10px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+  }
+
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 10px;
+  }
+
+  #top-jumbo .left-side .info-container .email-area button {
+    background-color: #6066f2;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
 }
 /*TABLETS DEVICES*/
 @media only screen and (max-width: 1023px) {
+  #top-jumbo .left-side {
+    width: 50%;
+  }
+
+  #top-jumbo .left-side .large-number {
+    font-size: 150px;
+    opacity: 0.2;
+    background: -webkit-linear-gradient(#4c44c1);
+    -webkit-background-clip: text;
+  }
+
+  #top-jumbo .left-side .info-container h1 {
+    font-size: 3.5rem;
+  }
+
+  #top-jumbo .left-side .info-container p {
+    font-size: 1.2rem;
+  }
+
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+  }
+
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 10px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+  }
+
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 10px;
+  }
+
+  #top-jumbo .left-side .info-container .email-area button {
+    background-color: #6066f2;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+
+  #top-jumbo .right-side {
+    width: 50%;
+  }
+
+  #top-jumbo .right-side img {
+    position: relative;
+    top: 90px;
+    width: 100%;
+  }
 }
 
 /*MOBILE DEVICES*/
 @media only screen and (max-width: 767px) {
+  #top-jumbo .left-side {
+    width: 100%;
+  }
+
+  #top-jumbo .left-side .large-number {
+    font-size: 150px;
+    opacity: 0.2;
+    background: -webkit-linear-gradient(#4c44c1);
+    -webkit-background-clip: text;
+  }
+
+  #top-jumbo .left-side .info-container h1 {
+    font-size: 3.5rem;
+  }
+
+  #top-jumbo .left-side .info-container p {
+    font-size: 1.2rem;
+  }
+
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+  }
+
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 10px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+  }
+
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 10px;
+  }
+
+  #top-jumbo .left-side .info-container .email-area button {
+    background-color: #6066f2;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+
+  #top-jumbo .right-side {
+    width: 100%;
+  }
+
+  #top-jumbo .right-side img {
+    position: relative;
+    top: -30px;
+  }
 }
